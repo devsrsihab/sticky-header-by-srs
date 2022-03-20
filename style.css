@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Great+Vibes&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+
+body{
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    max-width: 800px ;
+}
+
+ nav{
+    position: fixed  !important;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all .5s ease-in-out;
+    z-index: 99999;
+}
+.navbar-nav .nav-item .nav-link{
+    border-bottom: 2px solid transparent;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #780ff6 !important;
+    border-bottom: 2px solid #780ff6;
+    
+}
+
+.logo a{
+   color: #780ff6 !important;
+   font-weight: 800;
+}
+.content-heading {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+}
+.main_content p{
+    font-family: 'Audiowide', cursive;
+}
+
+/* scroll effect css */
+.scroll_down nav{
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll_up nav{
+  border-bottom: 2px solid #780ff6;
+  filter: drop-shadow(0  -10px 20px rgba(173, 31, 31, .) );
+  
+}
+body{
+    padding-bottom: 10000%;
+}
